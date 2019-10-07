@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class NumButtonHit : MonoBehaviour
 {
 
+    //This script detects interaction with the keypad buttons and passes in the corresponding number to the Keypad script
+
     Keypad keypad;
 
 

@@ -20,7 +20,7 @@ public class FlashlightColourManager : MonoBehaviour
         flashlightPanelColour = GetComponent<Renderer>();
     }
 
-
+    // If the left colour change button is hit
     public void FlashColourLeft()
     {
         flashlightAudio.Play();
@@ -34,6 +34,7 @@ public class FlashlightColourManager : MonoBehaviour
         magicRevealer.UpdateColour(currentColour);
     }
 
+    //If the right colour change button is hit
     public void FlashColourRight()
     {
         flashlightAudio.Play();

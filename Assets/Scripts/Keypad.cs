@@ -6,6 +6,11 @@ using UnityEngine.UI;
 public class Keypad : MonoBehaviour
 {
 
+    //This script manages the keypad and acts as a game manager, as the attampted code
+    //will determine whether the game is won or not
+
+    //This keypad can be re-used in other scenes, with the required code for the lock modified as desired
+
     public string code;
     int posInCode;
     int codeLength;
@@ -49,6 +54,7 @@ public class Keypad : MonoBehaviour
         }
     }
 
+    //Method to check code once a full attempted code is input
     void CheckCode()
     {
         if(codeAttempt == code)
@@ -60,12 +66,14 @@ public class Keypad : MonoBehaviour
         }
     }
 
+    //If attempted code is wrong, play fail sound and nothing happens
     void FailedCode()
     {
         keypadAudio.clip = keypadSounds[1];
         keypadAudio.Play();
     }
 
+    //If attempted code is correct, game is won. Play win sound, new light is enabled, win message displays
     public void GameWon()
     {
         keypadAudio.clip = keypadSounds[2];

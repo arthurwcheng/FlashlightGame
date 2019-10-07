@@ -10,6 +10,7 @@ public class FlashlightMessage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (OVRInput.GetDown(OVRInput.Button.One))
         {
             teleportMessage.SetActive(true);

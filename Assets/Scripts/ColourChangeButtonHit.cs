@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ColourChangeButtonHit : MonoBehaviour
 {
-    FlashlightColourManager flashlight;
+    // This script is attached to the flashlight colour changing buttons.
+
+    FlashlightColourManager flashlight; //attach gameobject with the FlashlightColourManager component
 
 
     private void OnTriggerEnter(Collider col)

@@ -20,20 +20,12 @@ public class FlashlightSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
+        // Toggle flashlight on or off
         if (OVRInput.GetDown(flashlightButton))
         {
-            FlashlightButtonHit();
+            flashlightBulb.enabled = !flashlightBulb.enabled;
+            flashlightSound.Play();
         }
-
-
-
     }
 
-    public void FlashlightButtonHit()
-    {
-        flashlightBulb.enabled = !flashlightBulb.enabled;
-        flashlightSound.Play();
-    }
 }
