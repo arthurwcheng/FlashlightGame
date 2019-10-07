@@ -10,7 +10,7 @@ Tested on Oculus Rift CV1
 Credits:
 
 Assets:
-Flashlight: 'Flashlight' by RRFREELANCE
+'Flashlight' by RRFREELANCE
 
 Scripting:
-Magic Revealing Shader script: 'The Magic Revealing Flashlight Shader' tutorial at https://www.youtube.com/watch?v=b4utgRuIekk
+'The Magic Revealing Flashlight Shader' tutorial at https://www.youtube.com/watch?v=b4utgRuIekk
