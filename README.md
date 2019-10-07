@@ -7,6 +7,9 @@ Using Oculus Integration for Unity v1.40
 
 Tested on Oculus Rift CV1
 
+Time spent on development: approx. 40 hours 
+
+
 Credits:
 
 Assets:
